@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.activities.PetsCreateForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="18" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="531" height="512"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6d653" class="javax.swing.JTextField" binding="textFieldNome">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="113c5" class="javax.swing.JLabel" binding="nomeLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Nome"/>
+        </properties>
+      </component>
+      <component id="ebfaa" class="javax.swing.JLabel" binding="idadeAproximadaLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Idade Aproximada"/>
+        </properties>
+      </component>
+      <component id="8cac2" class="javax.swing.JTextField" binding="textFieldidade">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ceb2b" class="javax.swing.JTextField" binding="textFieldraca">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="74b9e" class="javax.swing.JLabel" binding="racaLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Raça"/>
+        </properties>
+      </component>
+      <component id="a570c" class="javax.swing.JLabel" binding="especieLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Espécie"/>
+        </properties>
+      </component>
+      <component id="17197" class="javax.swing.JCheckBox" binding="cachorroCheckBox" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Cachorro"/>
+        </properties>
+      </component>
+      <component id="13e09" class="javax.swing.JCheckBox" binding="gatoCheckBox">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Gato"/>
+        </properties>
+      </component>
+      <component id="4cc15" class="javax.swing.JLabel" binding="formLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="22" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Formulário de Cadastro de Pet"/>
+        </properties>
+      </component>
+      <vspacer id="6823a">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="23a2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="6777d">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f206d">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="38e35" class="javax.swing.JButton" binding="confirmarButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16056091"/>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-1907233"/>
+          <text value="Confirmar"/>
+        </properties>
+      </component>
+      <vspacer id="8ed62">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="235fd" class="javax.swing.JLabel" binding="sexoLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Sexo"/>
+        </properties>
+      </component>
+      <component id="97dd4" class="javax.swing.JCheckBox" binding="machoCheckBox" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Macho"/>
+        </properties>
+      </component>
+      <component id="325a3" class="javax.swing.JCheckBox" binding="femeaCheckBox">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Fêmea"/>
+        </properties>
+      </component>
+      <vspacer id="e4229">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="6dfad" class="javax.swing.JCheckBox" binding="checkBoxehvermifugado">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Sim"/>
+        </properties>
+      </component>
+      <component id="6d946" class="javax.swing.JLabel" binding="ehvermifugado">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="É vermifugado"/>
+        </properties>
+      </component>
+      <component id="707a9" class="javax.swing.JLabel" binding="errorLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-4521983"/>
+          <text value="l"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="d39c0" class="javax.swing.JCheckBox" binding="checkBoxehcastrado">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Sim"/>
+        </properties>
+      </component>
+      <vspacer id="7b2c5">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a629a">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="1ddc2" class="javax.swing.JLabel" binding="castradoLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="É castrado"/>
+        </properties>
+      </component>
+      <component id="122a2" class="javax.swing.JButton" binding="voltarButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14527873"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-2104859"/>
+          <text value="Voltar"/>
+        </properties>
+      </component>
+      <hspacer id="9c864">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
